@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/APIDATAManagerCoreapi/apis/APIDATAManagerCore",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/apidatamanagerdbserver/databases/WorkoutData",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:WorkoutData",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
